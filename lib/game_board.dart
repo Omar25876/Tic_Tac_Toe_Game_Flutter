@@ -23,7 +23,7 @@ class _Game_BoardState extends State<Game_Board> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Game Board', style: Theme.of(context).textTheme.headline3),
+        title: Text(' Game Board ', style: Theme.of(context).textTheme.headline3),
         backgroundColor: Colors.deepPurple,
       ),
       body: Column(
