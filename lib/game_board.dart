@@ -5,7 +5,7 @@ import 'package:tic_tac_game/player_name.dart';
 import 'btn_.dart';
 
 class Game_Board extends StatefulWidget {
-  static String routeName = 'Game_Board';
+  static String routeName = 'Game Board';
   Game_Board();
 
   @override
