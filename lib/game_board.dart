@@ -5,7 +5,7 @@ import 'package:tic_tac_game/player_name.dart';
 import 'btn_.dart';
 
 class Game_Board extends StatefulWidget {
-  static String routeName = 'Game_Board';
+  static String routeName = 'Game Board';
   Game_Board();
 
   @override
@@ -23,7 +23,7 @@ class _Game_BoardState extends State<Game_Board> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Game Board', style: Theme.of(context).textTheme.headline3),
+        title: Text(' Game Board ', style: Theme.of(context).textTheme.headline3),
         backgroundColor: Colors.deepPurple,
       ),
       body: Column(
